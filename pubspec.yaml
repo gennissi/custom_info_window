@@ -11,7 +11,10 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  google_maps_flutter: ^2.0.2
+  google_maps_flutter:
+    git:
+      url: https://github.com/flutter/plugins.git
+      path: packages/google_maps_flutter/google_maps_flutter
 
 dev_dependencies:
   flutter_test:
